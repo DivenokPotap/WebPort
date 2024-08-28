@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мій сайт</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./normalize.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-wrap flex">
+            <div class="p1-wrap flex">
+            <div class="logo">
+                <img src="./images/WebStudio.png" alt="logo">
+            </div>
+            <nav>
+          </nav>
+            <div class="burger-menu">
+            <nav>
+                <ul class="menu flex"> 
+                 <li><a href="https://divenokpotap.github.io/Webstudio/">Студія</a></li>
+                 <div>
+                 <li><a href="#" class="blcr">Портфоліо</a></li>
+                </div>
+                 <li><a href="#">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="p2-wrap flex">
+            <div class="flex bluehover">
+                <img class="svg" src="./images/envelope.svg" alt="1">
+                <a href="#">info@devstudio.com</a>
+            </div>
+            <div class="flex">
+                <img class="svg smth" src="./images/Vector (3).svg" alt="2">
+                <a href="+380 096 111 11 11">+380 096 111 11</a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+    <section class="sec1">
+     <div class="sec1-wrap">
+     <nav class="buttons flex">
+      <ul class="menuwrap flex burger-menu">
+        <div class="btn1"><a href="#">Усі</a></div>
+        <div class="btn"><a href="#">Веб-сайт</a></div>
+        <div class="btn"><a href="#">Додатки</a></div>
+        <div class="btngrid flex">
+        <div class="btn pad"><a href="#">Дизайн</a></div>
+        <div class="btn"><a href="#">Маркетинг</a></div>
+      </div>
+      </ul>
+     </nav>
+     </div>
+    </section>
+    <section class="grid">
+    <div class="sec2-wrap flex">
+        <div class="group flex">
+        <div class="card">
+            <div class="overlay" id="overlay" onmouseout="off()">
+                <div><p>Ресурс пропонує комплексні <br> пропозиції з різним рівнем <br> функціоналу та
+                    сервісів. Все це <br> дозволить відвідувачу отримати <br> вичерпні відомості про компанію <br> чи
+                    приватну особу.</p></div>
+            </div>
+            <script>
+              function on() {
+                document.getElementById("overlay").style.display = "block";
+              }
+              
+              function off() {
+                document.getElementById("overlay").style.display = "none";
+              }
+              </script>
+      <img class="cardimage" onmouseover="on()" src="./images/img (5).png" alt="1">
+      <h3>Технокряк</h3>
+      <h5>Веб-сайт</h5>
+    </div>
+    <div class="card">
+        <img class="cardimage" src="./images/img.png" alt="1">
+        <h3>Постер New Orlean vs Golden Star</h3>
+        <h5>Дизайн</h5>
+      </div>
+      <div class="card">
+        <img class="cardimage" src="./images/img (1).png" alt="1">
+        <h3>Ресторан Seafood</h3>
+        <h5>Додаток</h5>
+      </div>
+    </div>
+    <div class="group flex">
+        <div class="card">
+      <img class="cardimage" src="./images/img (2).png" alt="1">
+      <h3>Проєкт Prime</h3>
+      <h5>Маркетинг</h5>
+    </div>
+    <div class="card">
+        <img class="cardimage" src="./images/img (3).png" alt="1">
+        <h3>Проєкт Boxes</h3>
+        <h5>Додаток</h5>
+      </div>
+      <div class="card">
+        <img class="cardimage" src="./images/img (4).png" alt="1">
+        <h3>Inspiration has no Borders</h3>
+        <h5>Веб-сайт</h5>
+      </div>
+    </div>
+    <div class="group flex">
+        <div class="card">
+      <img class="cardimage" src="./images/img (6).png" alt="1">
+      <h3>Видання Limited Edition</h3>
+      <h5>Дизайн</h5>
+    </div>
+    <div class="card">
+        <img class="cardimage" src="./images/img (7).png" alt="1">
+        <h3>Проєкт LAB</h3>
+        <h5>Маркетинг</h5>
+      </div>
+      <div class="card">
+        <img class="cardimage" src="./images/img (8).png" alt="1">
+        <h3>Growing Business</h3>
+        <h5>Додаток</h5>
+      </div>
+    </div>
+    </div>
+    </section>
+</main>
+<footer class="flex footer">
+  <div>
+      <img class="webstudiowhite" src="./images/WebStudio1.png" alt="logo">
+      <p class="footext">м. Київ, пр-т Лесі Українки, 26</p>
+      <p class="footext1">info@devstudio.com</p>
+      <p class="footext1">+38 096 111 11 11</p>
+  </div>
+  <div class="great">
+      <h3 class="join"><a href="#">ПРИЄДНУЙТЕСЬ</a></h3>
+      <div class="soc">
+          <ul class="flex">
+              <li class="gap tes1"><a href="#"><img src="./images/Ellipse_foot.svg" alt="4"></a></li>
+              <li class="gap tes2"><a href="#"><img src="./images/twitter.svg" alt="4"></a></li>
+              <li class="gap tes3"><a href="#"><img src="./images/Ellipse_foot1.svg" alt="4"></a></li>
+              <li class="gap tes4"><a href="#"><img src="./images/Ellipse_infoot.svg" alt="4"></a></li>
+          </ul>
+          </div>
+      </div>
+</div>
+</footer>
+</body>
+</html>
